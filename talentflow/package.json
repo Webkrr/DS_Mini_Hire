@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "type-check": "tsc --noEmit"
+},
   "dependencies": {
     "@faker-js/faker": "^10.0.0",
     "@radix-ui/react-slot": "^1.2.3",
